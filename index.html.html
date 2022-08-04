@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/ico" href="favicon.ico"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://kit.fontawesome.com/3e6eb5ea60.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Semillero</title>
+</head>
+
+<body data-spy="scroll" data-target="menu">
+    <!-- ? NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" id="menu" style="background-color: #ffffff;">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand"><img src="img/logo.png" alt="Logo"></a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain"
+                aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center" id="navbarMain">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Casos de éxito</a>
+                    </li>
+                    <div class="btn-group">
+                        <button class="btn dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"> Mercado <span class="caret"></span></button>        
+                        <ul class="dropdown-menu">
+                            <li><a href="#">AAPP</a></li>
+                            <li><a href="#">BANCA</a></li>
+                            <li><a href="#">INDUSTRIA</a></li>    
+                        </ul>
+                        <div class="btn-group">
+                            <button class="btn dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"> Mercado <span class="caret"></span></button>        
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Argentina</a></li>
+                                <li><a href="#">Colombia</a></li>
+                                <li><a href="#">Chile</a></li>    
+                            </ul>
+                            <div class="btn-group">
+                                <button class="btn dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"> Somos VASS <span class="caret"></span></button>        
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Equipo</a></li>
+                                    <li><a href="#">Nosotros</a></li>
+                                    <li><a href="#">Directorio</a></li>    
+                                </ul>
+                                <div class="btn-group">
+                                    <button class="btn dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"> ¿Cómo lo hacemos? <span class="caret"></span></button>        
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Impactos</a></li>
+                                        <li><a href="#">Métodos</a></li>
+                                        <li><a href="#">Tecnologías</a></li>    
+                                    </ul>
+                                <li class="nav-item">
+                                        <a href="#insg" class="nav-link">Insights</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#form" class="nav-link">Noticias</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#precio" class="nav-link">VASS Research</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">EN</a>
+                                    </li>
+                                        </button>
+                                        
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+    <!--  HEADER / Seccion 1--> 
+    <header class="hero text-white" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 d-none d-md-block">
+ 
+                </div>
+                <div class="col-12 col-md-7">
+                    <h1 class="mb-5 animate__animated animate__fadeInUp animate__slow">Lorem ipsum dolor sit amet
+                        consectetur.</h1>
+                    <p class="mb-5 animate__animated animate__fadeInUp animate__slow">Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Ipsa, illum a molestias
+                        ipsam ea nobis nostrum beatae odit iure quas officiis. Eos laudantium esse eligendi!</p>
+                   
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- sesion 2 -->
+    <section id="insg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-center">
+                            <div class="row align-items-top" style="padding-top: 8.5vh;padding-bottom: 8.5vh;"><div class="col-md-2 col-12 vass_rb"><h3>
+                                EMPECEMOS A HACERLO SENCILLO </h3></div><div class="col-md-6 col-12"><div class="vass_body_copy"><p>Nos emociona impulsar tu transformación digital.</p></div></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--FORMULARIO -->
+    <section class="mt-5" id="form">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-sm-6" id="formulario">
+                    <div class="swiper-container pb-4 wow animate__animated animate__fadeInRight">
+                        <div class="form-group">
+                            <label for="Name">Nombres y Apellidos</label>
+                            <input type="text" class="form-control" name="data[lName]" id="lName" placeholder="EJ: Steven Sánchez"aria-required="true" aria-invalid="false">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" id="email" name="data[email]" placeholder="EJ: stevens@hotmail.com"aria-required="true" aria-invalid="false">
+                                </div>
+                                <div class="form-group">
+                                    <label for="emp">Empresa/Organismo</label>
+                                    <input class="form-control" name="data[empresa]" placeholder="EJ: VASS"aria-required="true" aria-invalid="false"></input>
+                                </div>
+                                <div class="form-group">
+                                    <label for="pais" >País</label>
+                                    <input class="form-control" name="data[pais]" placeholder="EJ: Colombia"aria-required="true" aria-invalid="false"></input>
+                                </div>
+                                <div class="form-group">
+                                    <label for="mob">Teléfono</label>
+                                    <input type="text" class="form-control" id="mob" name="data[mob]" placeholder="EJ: 3045343124" aria-required="true" aria-invalid="false">
+                                </div>
+                                <div class="form-group">
+                                    <label for="address">Mensaje</label>
+                                    <textarea class="form-control" name="data[address]"aria-required="true" aria-invalid="false" ></textarea>
+                                    </div>
+                                <input type="submit" value="Enviar" class="btn-primary">          
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <!-- SECCION CLIENTES -->
+    <section id="clien">
+        <a href="#" class="cliente-logo"><img src="img/logo.png" alt="Logo"></a>
+        <div class="container-fluid">>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h2>Complex made simple</h2>
+            </div>
+            <div class="col">
+              <h2>Sitemap VASS</h2>
+              <ul id="menu-menu-footer-corporativo-en" class="navbar-nav-list">
+                <li class="menu-item"><a href="#"style="color:white;">Home</a></li>
+                <li class="menu-item"><a href="#"style="color:white;">Casos de éxito</a></li>
+                <li class="menu-item "><a href="#"style="color:white;">Somos VASS</a></li>
+                <li class="menu-item "><a href="#"style="color:white;">Impactos</a></li>
+                <li class="menu-item "><a href="#"style="color:white;">Método</a></li>
+                <li class="menu-item"><a href="#"style="color:white;">Tecnologías</a></li>
+                <li class="menu-item"><a href="#"style="color:white;">Proyectos I+D+i</a></li>
+                <li class="menu-item "><a href="#" style="color:white;">Insights</a></li>
+                <li class="menu-item "><a href="#"style="color:white;">Noticias</a></li>
+                <li class="menu-item "><a href="#"style="color:white;">VASS Research</a></li>
+                <li class="menu-item "><a href="#"style="color:white;">Canal de denuncias</a></li>
+                <li class="menu-item "><a href="#"style="color:white;">Contacto</a></li>
+            </ul>
+            </div>
+            <div class="col">
+              <h2>Sitemap Talento</h2>
+              <li class="menu-item"><a href="#" style="color:white;">Talento</a></li>
+                <li class="menu-item "><a href="#" style="color:white;">#LifeVASS</a></li>
+                <li class="menu-item "><a href="#"style="color:white;">Beneficios</a></li>
+                <li class="menu-item "><a href="#"style="color:white;">Planes para ti</a></li>
+                <li class="menu-item"><a href="#"style="color:white;">Proyectos</a></li>
+                <li class="menu-item"><a href="#"style="color:white;">Smartworking</a></li>
+                <li class="menu-item"><a href="#"style="color:white;">Ofertas</a></li>
+            </div>
+          </div>
+          
+            <div class="col">
+                <h2>Empresas</h2>
+                <li class="menu-item "><a href="#" style="color:white;">VASS</a></li>
+                <li class="menu-item "><a href="#"style="color:white;">Nateevo</a></li>
+                <li class="menu-item "><a href="#"style="color:white;">Serbatic</a></li>
+                <li class="menu-item"><a href="#"style="color:white;">vdShop</a></li>
+            </div>
+                </div>
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+    <!-- ? FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-box text-center">
+                        <p class="copy">
+                            Copyright &copy; 2021 | Todos los derechos reservados
+                            <a href="#" class="copy-link"></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="  https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+    
+</body>
+
+</html>
